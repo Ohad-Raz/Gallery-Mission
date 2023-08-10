@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.WrapFor-Slideshow-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 15vh;
+}
+.Slideshow-container {
+  width: 85vmin;
+  display: flex;
+  overflow: hidden;
+  border: 20px solid #ffffff;
+  border-radius: 1vh;
+  box-shadow: 10px 25px 30px rgba(30, 30, 200, 0.3);
+}
+
+.Slides-images {
+  width: 100%;
+  display: flex;
+  animation: slide 44s infinite;
+}
+
+.SlidImgSet {
+  width: 100%;
+  border-radius: 0.5vh;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  7% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(-100%);
+  }
+  17% {
+    transform: translateX(-100%);
+  }
+  20% {
+    transform: translateX(-200%);
+  }
+  27% {
+    transform: translateX(-200%);
+  }
+  30% {
+    transform: translateX(-300%);
+  }
+  37% {
+    transform: translateX(-300%);
+  }
+  40% {
+    transform: translateX(-400%);
+  }
+  47% {
+    transform: translateX(-400%);
+  }
+  50% {
+    transform: translateX(-500%);
+  }
+  57% {
+    transform: translateX(-500%);
+  }
+  60% {
+    transform: translateX(-600%);
+  }
+  67% {
+    transform: translateX(-600%);
+  }
+  70% {
+    transform: translateX(-700%);
+  }
+  77% {
+    transform: translateX(-700%);
+  }
+  80% {
+    transform: translateX(-800%);
+  }
+  87% {
+    transform: translateX(-800%);
+  }
+  90% {
+    transform: translateX(-900%);
+  }
+  97% {
+    transform: translateX(-900%);
+  }
+  100% {
+    transform: translateX(-1000%);
+  }
+}
