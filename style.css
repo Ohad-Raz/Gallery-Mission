@@ -11,7 +11,8 @@
 }
 
 .Slideshow-container {
-  width: 125vmin;
+  width: 90vw;
+  height: 50vh;
   display: flex;
   overflow: hidden;
   border-radius: 1vh;
@@ -27,7 +28,7 @@
 }
 
 .Slides-images {
-  width: 100%;
+  width: 33.39%;
   display: flex;
   animation: slide 40s infinite;
 }
